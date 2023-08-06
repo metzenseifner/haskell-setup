@@ -18,7 +18,8 @@ wget https://downloads.haskell.org/~ghcup/0.1.19.5/aarch64-apple-darwin-ghcup-0.
 ```
 
 and put it somewhere and make sure to add a symbolic link appropriately named
-`ghcup` to your ~/.local/bin.
+`ghcup` to your ~/.local/bin. Assumption is that you have added ~/.local/bin to 
+your PATH: `export PATH=~/.local/bin:$PATH`.
 
 ```
 ln -s ~/haskell/aarch64-apple-darwin-ghcup-0.1.19.5 ~/.local/bin/ghcup
